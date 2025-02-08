@@ -15,7 +15,6 @@ local function push_tab(tabpage)
 end
 
 function M.setup(opts)
-	vim.keymap.set("n", "<leader>lr", "<cmd>Lazy reload tabber<cr>", { noremap = true, silent = true })
 	-- On TabEnter, record the current tabpage in our history.
 	vim.api.nvim_create_autocmd("TabEnter", {
 		group = "tabber",

@@ -10,7 +10,7 @@ With this plugin, when you close a tab, you are taken back to your most recently
 ### Lazy
 ```lua
 {
-    "daodejing/tabber",
+    "daodejing/tabber.nvim",
     config = true,
 }
 ```

@@ -1,5 +1,5 @@
 # tabber
-*tabber* is a neovim plugin for tabs
+*tabber* is a neovim plugin for nicer tab closing
 
 In neovim, when closing a tab, you are taken to the most recently created tab.
 

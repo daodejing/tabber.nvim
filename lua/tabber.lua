@@ -25,7 +25,6 @@ function M.setup(opts)
 				return
 			end
 			local current = vim.api.nvim_get_current_tabpage()
-			-- local current = vim.api.nvim_tabpage_get_number(0)
 			push_tab(current)
 		end,
 	})
@@ -44,7 +43,6 @@ function M.setup(opts)
 			-- print("Closed tab number: " .. closed_tab_number)
 			-- Remove any entries in tab_history that are no longer valid
 			for i = #tab_history, 1, -1 do
-				-- if tab_history[i] == closed_tab_number and not vim.api.nvim_tabpage_is_valid(tab_history[i]) then
 				-- print("tab_history[i]: " .. tab_history[i])
 				if tonumber(tab_history[i]) == tonumber(top) then
 					table.remove(tab_history, i)

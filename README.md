@@ -9,7 +9,7 @@ So I made tabber.
 ```lua
 {
     "daodejing/tabber",
-    opts = {},
+    config = true,
 }
 ```
 

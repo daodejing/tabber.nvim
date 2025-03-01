@@ -1,4 +1,3 @@
-# Good News!
 In the current (2025/2/9) nightly (`NVIM v0.11.0-dev-1709+ga9cdf76e3a`), there is an option:
 ```
 set tabclose=uselast

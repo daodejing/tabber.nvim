@@ -5,7 +5,7 @@ set tabclose=uselast
 ```
 That provides the functionality of this plugin.
 
-> [!note] 2025/3/1: I found that this option is not working as expected. I will keep this plugin for now.
+> 2025/3/1: I found that this option is not working as expected. I will keep this plugin for now.
 
 # tabber
 *tabber* is a neovim plugin for nicer tab closing

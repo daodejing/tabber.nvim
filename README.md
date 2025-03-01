@@ -18,7 +18,7 @@ With this plugin, when you close a tab, you are taken back to your most recently
 ```lua
 {
     "daodejing/tabber.nvim",
-	opts = {},
+    opts = {},
 }
 ```
 
